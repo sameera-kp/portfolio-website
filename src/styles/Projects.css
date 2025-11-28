@@ -1,0 +1,61 @@
+/* Projects.css */
+#projects {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#projects h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.project-card p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}

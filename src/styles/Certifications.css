@@ -1,0 +1,25 @@
+#certifications {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cert-card {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: beige;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.cert-card h3 {
+  margin-bottom: 5px;
+}
+
+.cert-card a {
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
